@@ -1,0 +1,18 @@
+{
+  "name": "demo-js-structure",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server",
+    "prettier": "prettier --write .",
+    "prettier:watch": "nodemon --exec 'npm run prettier' --ext 'html,js,css'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "live-server": "^1.2.2",
+    "nodemon": "^2.0.20",
+    "prettier": "^2.7.1"
+  }
+}
